@@ -1,0 +1,80 @@
+/* 1rem = 16px*/
+/* 2px 4px 6px*/
+/* 4px 8px 12px 16px*/
+/* .25rem  .5rem .75rem 1rem */
+/* 5px 10px 15px 20px */
+
+.mainContainer {
+    border: 2px solid blue;
+    display: flex;
+    /* defult flext direction is in row: ; */
+    /* flex-direction: column; */
+    /* for horizontally  --- we use justify */
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* for align  --- we use justify */
+    align-items: center
+}
+
+
+.designHeading {
+    border: 2px solid red;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px 20px 10px 10px; */
+    padding: 10px 10px;
+    /* padding: y x; */
+    /* 
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-left: ;
+     */
+    margin: 10px;
+    text-align: center;
+}
+
+
+.innerBox {
+    border: 2px solid green;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* flex
+   position:relative , absolute, static
+   display: flex;
+
+*/
+
+
+
+.mainContainer h1 {
+    font-size: 5rem !important;
+}
+
+h1 {
+    font-size: 24px !important;
+}
+
+
+/* margin padding bac color float
+ alignment 
+
+*/
+
+
+/* 
+ div / blocks / p / h Design 
+
+
+ text  :- size , font Weight (bold 400, 500)
+
+ responsiveness
+
+ @media(agr mobile 500px se km hai ){
+ 
+.designHeading {
+font-size:"1rem"
+}
+*/
