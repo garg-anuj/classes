@@ -1,13 +1,32 @@
 let value = {
   myObj: [1, 2, 3, 4, 4],
 };
+// var ,let ,const
 
-let targetFirstValueInputBox = document.getElementById("firstValue");
+const targetFirstValueInputBox = document.getElementById("firstValue");
+const targetSecondValueInputBox = document.getElementById("secondValue");
+const targetSubmitBtn = document.getElementById("submitBtn");
+
 console.log(targetFirstValueInputBox.value);
-let targetSubmitBtn = document.getElementById("submitBtn");
-// ev
 
-console.log("Hello Java Script", 2 * 5, value);
+targetSubmitBtn.addEventListener("click", getResult);
+
+function getResult(a = 0, b = 0) {
+  // let sum = tarrget1Value + targetSeocendValue
+  // return  sum
+  const result = document.getElementById("result");
+
+  let firstIntValue = parseInt(targetFirstValueInputBox.value, 10);
+  let secondIntValue = parseInt(targetSecondValueInputBox.value, 10);
+
+  let sum = firstIntValue + secondIntValue;
+
+  result.innerHTML = sum;
+
+  return a + b;
+}
+
+console.log("Hello Java Script", targetFirstValueInputBox);
 
 // 1st inputs ko target karo  2 dono input target hone ke baad
 //  button ko target kro
