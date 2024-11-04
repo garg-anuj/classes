@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding:.5rem
+}
+
+.tabsBarContainer{
+    border: 2px solid red;
+    width: 100%;
+}
+
+.logoBox{
+    border: 2px solid blue;
+}
+
+.sideIcons{
+    border: 2px solid green;
+    display: flex;
+}
