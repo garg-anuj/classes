@@ -1,25 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.headerContainer{
+.headerContainer {
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
-    padding:.5rem
+    padding: .5rem
 }
 
-.tabsBarContainer{
-    border: 2px solid red;
-    width: 100%;
-}
-
-.logoBox{
+.logoBox {
     border: 2px solid blue;
 }
 
-.sideIcons{
+/* ------------------------------------- */
+.tabsBarContainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .tabsBtnBox {
+        border: 2px solid black;
+        width: 50%;
+    }
+
+    .searchBar {
+        /* border: 2px solid orangered; */
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: center;
+        border: 2px solid red;
+
+
+
+        .searchBox {
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.09);
+            display: flex;
+            align-items: center;
+            padding: 0 1rem;
+            border-radius: .25rem;
+            border: 2px solid red;
+
+            input {
+                width: 100%;
+                border: none;
+                height: 40px;
+                background: transparent;
+                padding: 0 1rem;
+                width: 100%;
+                border: 2px solid red;
+            }
+        }
+    }
+}
+
+/* ------------------------------------------ */
+
+
+
+.sideIcons {
     border: 2px solid green;
     display: flex;
 }
