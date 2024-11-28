@@ -32,3 +32,8 @@ let strBackticks = `total cost is ${sum(422, 23)} Rs`;
 
 console.log(str);
 console.log(`${strBackticks} = ${strBackticks.length} ${strBackticks[1]}`);
+
+
+
+// ------------------------------------------------------------
+
