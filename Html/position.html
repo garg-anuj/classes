@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+        }
+
+        .parent {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            border: 5px solid red;
+        }
+
+
+        .child {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* transform: translateY(-50%);
+            transform: translateX(-50%); */
+            width: 60px;
+            height: 60px;
+            border: 5px solid green;
+        }
+
+        /* --------------------------------------------- */
+        .parent2 {
+            width: 600px;
+            height: 600px;
+            border: 5px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+
+        .child2 {
+            margin: 0 .25rem;
+            /* display: inline;
+            display: inline-block; */
+            width: 60px;
+            height: 60px;
+            border: 5px solid green;
+        }
+
+        /* --------------------------------------------- */
+        .parent3 {
+            width: 200px;
+            height: 200px;
+            border: 5px solid red;
+        }
+
+        .child3 {
+            margin: 1rem;
+            padding-left: 2rem;
+            width: 60px;
+            height: 60px;
+            border: 14px solid green;
+        }
+
+        /* 4px 60px 4px 32px  */
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <div class="parent">
+        parent
+        <div class="child">
+
+            Child
+        </div>
+    </div> -->
+
+    <!-- ------------------------------------ -->
+
+
+    <div class="parent3">
+        parent
+        <div class="child3">
+            Child
+        </div>
+    </div>
+
+    <!-- ------------------------------------ -->
+    <!-- 
+    <div class="parent2">
+        parent
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+        <div class="child2">
+            Child
+        </div>
+    </div> -->
+    <!-- <div class="parent2"></div> -->
+
+</body>
+
+</html>
